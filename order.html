@@ -9,6 +9,21 @@
 <h3 style ="text-align:left; color: green;"> For order, fill this form :- </h3>
 
 <div style ="text-align:left; color: orange;" >
+ <form
+  action="https://formspree.io/f/mdklzkzn"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 
 <form id="myForm">
 
@@ -32,21 +47,4 @@
 
  <button type="submit">Submit</button>
 </form>
- <script>
-   const form=document.getElementbyId('myForm');
-   form.addEventListener('submit'(e)=>{
-   e.preventDefault();
-   const name=document.getElementById('name').value;
-   const name=document.getElementById('phone').value;
-   const name=document.getElementById('item').value;
-   const name=document.getElementById('quantity').value;
-   const name=document.getElementById('address').value;
-   const name=document.getElementById('email').value;
-   const emailLink=mailto:mangalamsoni70@gmail.com subject= new order &body=apnaproduct:%20${name}%20${phone}%20${item}%20${quantity}%20${address}%20${email};
-   window.location.herf=emailLink;
-})
-</script>
-</div>
 
-
- 
